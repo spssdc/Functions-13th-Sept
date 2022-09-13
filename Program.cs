@@ -6,10 +6,7 @@ namespace Functions_Example
     {
         static int square (int n)
         {
-            int result;
-
-            result = n * n;
-            return result;
+            return n*n;
         }
 
         static void message(string e)
